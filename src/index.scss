@@ -1,0 +1,22 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.App {
+  margin: 30px;
+  font-family: 'Trebuchet MS',sans-serif;
+  color: #686e74;
+}
+
+.match {
+  text-align: end;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
