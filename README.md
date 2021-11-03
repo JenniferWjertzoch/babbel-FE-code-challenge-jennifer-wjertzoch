@@ -1,30 +1,8 @@
-# Babbel Frontend Coding Challenge
-
-We're excited that you're interested in joining the Babbel team.
-
-The purpose of this test is to see how you approach problems as well as to evaluate the quality of your code.
-
-To begin first you'll need to have node installed https://nodejs.org/en/. Make sure it's at least the same major version as specified in the .node_version file within the project folder.
-
-Then run:
-
-```sh
-npm install
-```
-
-Once all the packages are installed then run:
-
-```sh
-npm run start
-```
-
-Navigate to http://localhost:8080 to see the application running.
-
-A server will also start on http://localhost:8000
+# Rolling dice in turn - Frontend Coding Challenge
 
 ## Challenge description
 
-In this challenge, you will build a local game where players compete by rolling dice in turn.
+In this challenge, I built a local game where players compete by rolling dice in turn.
 
 A trusty BE developer has implemented an API endpoint on http://localhost:8000 for returning a game response which contains these properties:
 
@@ -45,7 +23,7 @@ Player 1 goes first then Player 2 etc. and once the last player has rolled, retu
 Each player continues to roll until a player scores equal to or higher than the `scoreToWin`. This player wins the match.
 When a player wins the match, post the `winnerId` and `gameId` to the specified endpoint successfully. Display a congratulatory message in any way you see fit.
 
-**What we'd like to see:**
+**What needed to be done:**
 
 - Layout the page as per the mockup. Please see the [mockup here](./mockup.png)
 - Only the current player can roll, represented visually as well as functionally
@@ -55,13 +33,6 @@ When a player wins the match, post the `winnerId` and `gameId` to the specified 
 - Optional:
   - Using version control
   - Writing tests (Jest & React-Test-Renderer are configured)
-
-**Information**
-
-- Please don't spend more than 4 hours. If you are running out of time feel free to take shortcuts and explain what they are or what you could not complete
-- We don't expect the roll to be displayed visually/animated.
-- The project is setup with React, Jest, React-Test-Renderer and Sass with hot-reloading out of the box. However, feel free to use whichever frameworks & libraries you see fit.
-- There is no need to make changes to the api
 
 ### API endpoints
 
@@ -73,11 +44,20 @@ Make sure you have run `npm run start` so the server is available.
     - matchId: **string**
     - winnerId: **string**
 
-## What we're looking for:
+### How to get started
 
-- Code quality
-- Correctness
-- Technical choices
-- Styling ability
+Then run:
 
-We appreciate your time and energy completing the coding exercise and will review your solution as quickly as possible.
+```sh
+npm install
+```
+
+Once all the packages are installed then run:
+
+```sh
+npm run start
+```
+
+Navigate to http://localhost:8080 to see the application running.
+
+A server will also start on http://localhost:8000
